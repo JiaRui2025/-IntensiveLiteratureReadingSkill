@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>以写作为目的的精读 · {{TITLE}}</title>
+<style>{{CSS}}</style>
+</head>
+<body>
+<div id="progress"></div>
+<div class="wrap">
+<aside>
+  <div class="brand">
+    <small>Close Reading</small>
+    {{TITLE}}
+  </div>
+  <nav id="nav">
+    <div class="grp">第一部分 · 框架</div>
+    <a href="#s0">阅读方式</a>
+    <a href="#s1">1 · 这篇文章在解决什么</a>
+    <a href="#s2">2 · 全文骨架</a>
+    <a href="#s3">3 · 论证主线</a>
+    <a href="#s4">4 · 方法论通俗版</a>
+    <a href="#s4b">5 · 图版精读</a>
+    <a href="#s5">6 · 写作动作清单</a>
+    <div class="grp">第二部分 · 逐段精读</div>
+    <div id="navunits"></div>
+    <div class="grp">第三部分 · 工具箱</div>
+    <a href="#t1">句式分类库</a>
+    <a href="#t2">引用动词与「我们」</a>
+    <a href="#t3">Hedging 梯度</a>
+    <a href="#t4">时态规则</a>
+    <a href="#t5">逻辑连接地图</a>
+    <a href="#t6">动笔前自检</a>
+  </nav>
+</aside>
+
+<main>
+<header class="hero">
+  <div class="kicker">以写作为目的的精读 · Close Reading for Academic Writing</div>
+  <h1><!-- FILL: 中文主标题，可用 <em> 标出核心机制 --></h1>
+  <p class="sub"><!-- FILL: 英文原题 --></p>
+  <div class="meta">
+    <span><!-- FILL: 期刊 卷/页 (年) --></span>
+    <span><!-- FILL: 作者 --></span>
+    <span><!-- FILL: 单位 --></span>
+    <span><!-- FILL: 页数 · 图数 · 表数 --></span>
+  </div>
+</header>
+
+<!-- ============ s0 阅读方式 ============ -->
+<section id="s0">
+<h2><span class="num">HOW TO USE</span>这份精读怎么用</h2>
+<!-- FILL: 说明这是 review 还是 research article，与上一篇的区别，三部分各解决什么问题。
+     建议放一张 compact 表格：部分 | 内容 | 解决你的哪个问题 -->
+</section>
+
+<!-- ============ s1 这篇文章在解决什么 ============ -->
+<section id="s1">
+<h2><span class="num">PART 1 · 1</span>这篇文章在解决什么</h2>
+<p class="lead"><!-- FILL: 一句话说清问题，最好带反差 --></p>
+
+<!-- FILL: 三层问题，层层收紧。每层用 <div class="box"> 包一个 Q1/Q2/Q3：
+     <h4>Q1 一个不该存在的现象</h4><p>...</p><p class="note">证据 / 原句</p>
+     第 3 层通常是「机制空白」——即本文假说要填的洞。 -->
+
+<div class="box tint">
+<h4>它的答案，以及答案的三个层次</h4>
+<p><!-- FILL: 结论一句话；用 <b> 标出机制链 --></p>
+<table class="compact">
+  <tr><th style="width:90px">层次</th><th>结论</th><th style="width:200px">关键证据</th></tr>
+  <tr><td>结构层</td><td><!-- FILL --></td><td><!-- FILL --></td></tr>
+  <tr><td>因果层</td><td><!-- FILL --></td><td><!-- FILL --></td></tr>
+  <tr><td>性能层</td><td><!-- FILL --></td><td><!-- FILL --></td></tr>
+</table>
+</div>
+</section>
+
+<!-- ============ s2 全文骨架 ============ -->
+<section id="s2">
+<h2><span class="num">PART 1 · 2</span>全文骨架</h2>
+<p class="lead"><!-- FILL: 一句话概括结构逻辑 --></p>
+<!-- FILL: 用 table.compact 列「段落 → 在干什么 → 承担什么论证任务」；
+     可加篇幅占比条（.bar / .w）帮助读者感受重心。 -->
+</section>
+
+<!-- ============ s3 论证主线 ============ -->
+<section id="s3">
+<h2><span class="num">PART 1 · 3</span>论证主线</h2>
+<p class="lead"><!-- FILL: 这条线从哪走到哪 --></p>
+<!-- FILL: 用 <div class="chain"> + <div class="step"> 画证据链；
+     每步写「做了什么 → 得到什么 → 排除了什么」。
+     再加一张证据矩阵表：主张 | 证据 | 手段 | 强度。 -->
+</section>
+
+<!-- ============ s4 方法论通俗版 ============ -->
+<section id="s4">
+<h2><span class="num">PART 1 · 4</span>方法论通俗版</h2>
+<p class="lead"><!-- FILL: 先给读者一个心智模型，再逐个方法 --></p>
+<!-- FILL: 每个方法一张 <div class="mcard">：
+     <h4>技术名（英文）</h4>
+     <p><b>一句话原理</b>：用日常类比讲清它测的是什么物理量。</p>
+     <p><b>在这篇里回答什么</b>：...</p>
+     <p><b>怎么看结果</b>：...</p>
+     最后用一张表区分易混概念。 -->
+</section>
+
+{{FIGS}}
+<!-- 上面这一行由 assemble.py 替换为 s4b 图版章节。
+     每张图三层：在证明什么 / 怎么看 / 写作提示。 -->
+
+<!-- ============ s5 写作动作清单 ============ -->
+<section id="s5">
+<h2><span class="num">PART 1 · 6</span>研究论文的六个动作</h2>
+<p class="lead">把每一段归类，你会发现它们只在做六件事。写完初稿后按这六条自查，就不会写成「实验记录」。</p>
+<table>
+  <tr><th style="width:34px">#</th><th style="width:150px">动作</th><th>具体做法</th><th style="width:130px">本文对应</th></tr>
+  <tr><td>1</td><td>用一个异常开题</td><td><!-- FILL --></td><td><!-- FILL --></td></tr>
+  <tr><td>2</td><td>把旧解释讲到「不够用」</td><td><!-- FILL --></td><td><!-- FILL --></td></tr>
+  <tr><td>3</td><td>把假说写成一句可检验的话</td><td><!-- FILL --></td><td><!-- FILL --></td></tr>
+  <tr><td>4</td><td>设计对照，包括「天然的对照」</td><td><!-- FILL --></td><td><!-- FILL --></td></tr>
+  <tr><td>5</td><td>多尺度证据链，逐级定量</td><td><!-- FILL --></td><td><!-- FILL --></td></tr>
+  <tr><td>6</td><td>主动交代不确定性</td><td><!-- FILL --></td><td><!-- FILL --></td></tr>
+</table>
+</section>
+
+<!-- ============ part2 逐段精读 ============ -->
+<section id="part2">
+<h2><span class="num">PART 2</span>逐段精读 · <!-- FILL: N --> 个单元 / <!-- FILL: M --> 句</h2>
+<p class="lead">这部分把全文拆成 <!-- FILL: N --> 个单元、<!-- FILL: M --> 句，每句给四栏分析：<b>语法骨架</b>、<b>逻辑功能</b>、<b>可复用模板</b>、<b>细节提醒</b>。</p>
+<p>高亮规则：青绿色＝<b>内容</b>，琥珀色＝<b>句式</b>，虚线下划线＝<b>逻辑信号词</b>。点击任意一句，直接跳到对应分析。</p>
+<div class="legend">
+  <span><b>怎么读：</b>先读整段（感受节奏）</span>
+  <span>→ 再看「段落功能」</span>
+  <span>→ 最后逐句看四栏</span>
+  <span><b>怎么用：</b>模板栏右侧悬停出现「复制」按钮</span>
+</div>
+<div id="unitlist"></div>
+</section>
+
+{{TOOLBOX}}
+</main>
+</div>
+
+<script>{{UNITS}}</script>
+<script>{{RENDER}}</script>
+</body>
+</html>
